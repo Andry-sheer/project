@@ -1,0 +1,239 @@
+@import url("reset.css");
+
+/* GLOBAL ************************************************************************/
+
+body {
+font-family: 'Montserrat', sans-serif;
+/*font-weight: 700;*/
+font-weight: 400;
+color: #fff;
+
+}
+
+.container {
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+/* TITLES - SUBTITLES - ABOUT - PARAGRAPH **************************************/
+.title {
+  font-family: 'Fredericka the Great', serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.About {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 24px 25px 24px 25px ;
+}
+
+.paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0 25px 24px 25px;
+}
+
+/* HEADER **********************************************************************/
+.header {
+  background: #253F97;
+  padding: 35px 0;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+.header-logo {} 
+*/
+
+.header-list {
+display: flex;
+gap: 20px;
+}
+
+.header-list a {
+color: inherit;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+/* main-section 1 **************************************************************/
+.main-section {
+  background: #2E2E2E;
+}
+
+.main-section-block {
+  min-height: 470px;
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* main-section 2 *************************************************************/
+.main-section2 {
+  background: #424242;
+}
+
+.container-section2 {
+  min-height: 470px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+flex-shrink: 0;
+}
+
+.container2 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 90px 15px  ;
+  }
+
+
+.cr-blocks {
+  display: flex;
+  padding: 45px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cr-block1 {
+  width: 555px;
+  height: 375px;
+  border-radius: 8px 0px 0px 8px;
+  background: #212121;
+  flex-shrink: 0;
+}
+
+.cr-block2 {
+  width: 555px;
+  height: 375px;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+}
+
+/* main-section 3 *************************************************************/
+.main-section3 {
+  background: #2E2E2E;
+}
+
+.Feature {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-section-block3 {
+  min-height: 470px;
+  max-width: 1440px;
+flex-shrink: 0;
+}
+
+.container3 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 90px 15px;
+} 
+
+.cr-blocks2 {
+  display: flex;
+  padding: 45px 0 0 0;
+  align-items: center;
+  gap: 30px;
+}
+
+.cardcont_1 {
+  width: 350px;
+  height: 402px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #424242;
+  padding: 24px 26px 0 ;
+}
+
+.cardcont_2 {
+  width: 350px;
+  height: 402px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #424242;
+  padding: 24px 26px 0 ;
+}
+
+.cardcont_3 {
+  padding: 24px 26px 0 ;
+  width: 350px;
+  height: 402px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #424242;
+}
+
+.card_title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  padding: 24px 0 23px 0 ;
+}
+
+.paragraph2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+}
+
+.adress > a {
+  color: #FF7E20;
+  
+}
+.adress {
+  padding-bottom: 23px;
+}
+
+/* FOOTER *********************************************************************/
+.footer_container {
+  background: #253F97;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adress_footer {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.adress_footer > a {
+  color: #F2F2F2;
+}
+
+.footer-ico {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 24px 0 29px ;
+}
+/* END **************************************************************************************/
